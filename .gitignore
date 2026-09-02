@@ -1,0 +1,6 @@
+# Word lock and temporary files
+~$*
+*.tmp
+
+# macOS
+.DS_Store
