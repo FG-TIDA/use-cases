@@ -135,7 +135,7 @@ consequential governs the case)*
 > Required under ITU-T Recommendation A.7 clause 7: the Focus Group does not duplicate work underway in ITU-T study groups or other bodies.
 
 **Existing standards or SDOs** *(which existing work touches this case)*:
-**Overlap notes** *(for each one named, what does it not cover for this case)*:
+**Overlap notes** *(why the work named above does not already solve this)*:
 
 ## 8. Maturity
 
