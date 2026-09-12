@@ -17,11 +17,14 @@ type: Feature
 **Submitting organization:** <org>
 **Contact name:** <name>
 **Contact email:** <email>
-**Sector**:
+
+**Sector** *(tick all that apply; a cross-industry case may tick more than one)*:
 - [ ] Education
+- [ ] Displaced persons / humanitarian
 - [ ] Health
 - [ ] Financial services
 - [ ] Telecom
+- [ ] Media and publishing
 - [ ] Logistics
 - [ ] Energy
 - [ ] Critical infrastructure
@@ -30,25 +33,43 @@ type: Feature
 
 ## 2. The situation
 
-> Describe one concrete situation: who is acting, what they are doing, what went wrong, how it is handled today, and why that handling falls short.
+> Describe the functional interaction: who is acting, what they are trying to achieve,
+> and what happens. The trust and security aspects are drawn out in Sections 3 to 5.
 
 **Plain language description** *(required, 3 sentences max)*:
-**Actor:** 
-**Action:** 
-**Problem encountered:** 
-**Current mitigation:** 
-**Residual gap:** 
+**Actor** *(every party involved)*:
+**Action**:
+**Decision required** *(at the moment the agent acts, what does the party on the receiving
+end have to decide? Write it as a question, e.g. "May this firm's agent be let into the
+house on the homeowner's authority?")*:
+**Problem encountered** *(why that decision cannot be made today)*:
+**Current mitigation**:
+**Residual gap**:
 
 ## 3. Actors and context
 
 **Taxonomy roles involved**
+- [ ] Principal — possesses the authority being exercised; source of the mandate
+- [ ] Relying party — must decide whether to accept the agent's authority
 - [ ] Builder
 - [ ] Deployer / Owner
 - [ ] Agent instance
-- [ ] User
+- [ ] User — interacts with the agent; may or may not be the principal
 - [ ] Infra provider
 - [ ] Attestor
 - [ ] Other (specify): 
+
+**Mandates in this case** *(required)*
+
+> List each grant of authority. State the legal regime governing each one: the regime
+> fixes what could be conferred, at what moment standing may change, and with what
+> continuing effect. A single-regime case is entirely valid. Actor above lists every
+> party; this table covers only the authority relationships between them.
+
+| Grantor | Grantee | What is conferred | Governing regime |
+|---|---|---|---|
+| | | | |
+| | | | |
 
 **Cross-border?**
 - [ ] Yes — jurisdictions involved: 
@@ -58,7 +79,8 @@ type: Feature
 - [ ] Yes — physical context: 
 - [ ] No
 
-**Agent action type** *(required)*
+**Agent action type** *(required; tick all that apply. Where several apply, the most
+consequential governs the case)*
 - [ ] Read-only
 - [ ] Consequential (reversible)
 - [ ] Irreversible
@@ -74,7 +96,9 @@ type: Feature
 
 ## 4. Theme relevance
 
-> Check every theme this situation exercises, mark the single primary theme, and justify each checked theme against Section 2 above.
+> Check every theme this situation exercises, mark the single primary theme, and justify
+> each checked theme against Section 2 above. If your case maps to specific theme
+> proposals in the themes repository, link them below.
 
 | Theme | Yes | Primary | Justification (required if checked) |
 |---|---|---|---|
@@ -85,9 +109,13 @@ type: Feature
 | Runtime Enforcement (Control Plane) | [ ] | [ ] | |
 | Embodied AI Identity and Trust | [ ] | [ ] | |
 
+**Related theme proposals**:
+
 ## 5. Requirements
 
-> One row per requirement. Add rows as needed. Type: Legal / Business / Technical. Criticality: Must / Should / Nice-to-have.
+> One row per requirement. Add rows as needed. Type: Legal / Business / Technical.
+> Technical requirements are the primary output; include legal or business requirements
+> where they bear on a technical decision. Criticality: Must / Should / Nice-to-have.
 
 | # | Type (choose one) | Requirement description | Criticality (choose one) |
 |---|---|---|---|
@@ -106,8 +134,8 @@ type: Feature
 
 > Required under ITU-T Recommendation A.7 clause 7: the Focus Group does not duplicate work underway in ITU-T study groups or other bodies.
 
-**Existing standards or SDOs:** 
-**Overlap notes:** 
+**Existing standards or SDOs** *(which existing work touches this case)*:
+**Overlap notes** *(why the work named above does not already solve this)*:
 
 ## 8. Maturity
 
