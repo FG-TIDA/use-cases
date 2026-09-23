@@ -10,7 +10,7 @@ work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
 
 | # | Title | Sector | Submitting organization | Primary theme | Submission |
 |---|-------|--------|-------------------------|---------------|------------|
-| — | *No submissions yet* | — | — | — | — |
+| 7 | Maintaining agent identity and action-time state across changing executions | Customer-support operations / cross-sector | Forkit AI | Dynamic Identity | [#7](https://github.com/FG-TIDA/use-cases/issues/7) |
 
 ## Contributing
 
