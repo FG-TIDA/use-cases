@@ -1,8 +1,8 @@
 # [Use Case] Contextual trust under recursive human–agent escalation
 
-![Robots writing specifications for trust in robots. Proposed, hypothetical individual expert contribution.](assets/cover.png)
+![Robots writing specifications for trust in robots. Proposed, hypothetical individual expert contribution.](https://raw.githubusercontent.com/dakleyer/use-cases/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/assets/cover.png)
 
-**[Start with the short case](FG_TIDA_Issue_Body_Contextual_Trust_v1.0.md)** · **[Read the complete dossier](FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md)** · **[Visual reading edition](FG_TIDA_Visual_Reading_v1.0.html)**
+**[Start with the short case](https://github.com/dakleyer/use-cases/blob/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/FG_TIDA_Issue_Body_Contextual_Trust_v1.0.md)** · **[Read the complete dossier](https://github.com/dakleyer/use-cases/blob/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md)** · **[Download the visual reading edition](https://github.com/dakleyer/use-cases/raw/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/FG_TIDA_Visual_Reading_v1.0.html)**
 
 > **For this package, this action and this moment: what can be relied on, what remains unresolved, and what must be reviewed before proceeding?**
 
@@ -14,7 +14,7 @@
 
 First publication edition, version 1.0; hypothetical and implementation-neutral. Submitted to FG-TIDA as an individual expert contribution; no acceptance, pilot execution or adoption is claimed. This summary follows the retained ten-section template and does not replace the dossier's requirements or evaluation designs.
 
-**Reading route:** [FG-TIDA fit](#fg-fit) · [The situation](#situation) · [Requirements](#requirements) · [Assessment](#assessment) · [Duplication](#duplication) · [Complete annex guide](FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md#annex-a)
+**Reading route:** [FG-TIDA fit](#fg-fit) · [The situation](#situation) · [Requirements](#requirements) · [Assessment](#assessment) · [Duplication](#duplication) · [Complete annex guide](https://github.com/dakleyer/use-cases/blob/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md#annex-a)
 
 ---
 
@@ -79,9 +79,9 @@ Full source-specific boundaries are at the dossier's opening and Sections 4/7/H.
 
 **Working definition:** Contextual reliance is the bounded decision to depend on a contribution or review for a specified task, artifact version, context, consequence and validity period, with evidence quality, coverage, independence and residual uncertainty stated. Actor type alone establishes neither superior quality nor adequate oversight.
 
-![The human reviewer may consult A3; a human response does not establish the required judgment. Admission depends on applicable evidence for the exact package.](assets/process.png)
+![The human reviewer may consult A3; a human response does not establish the required judgment. Admission depends on applicable evidence for the exact package.](https://raw.githubusercontent.com/dakleyer/use-cases/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/assets/process.png)
 
-**Open the supporting routes:** [R0/R1/R2 evaluation](FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md#evaluation-paths) · [Measurement and escalation](FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md#annex-i) · [Exact standards gaps](FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md#annex-h)
+**Open the supporting routes:** [R0/R1/R2 evaluation](https://github.com/dakleyer/use-cases/blob/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md#evaluation-paths) · [Measurement and escalation](https://github.com/dakleyer/use-cases/blob/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md#annex-i) · [Exact standards gaps](https://github.com/dakleyer/use-cases/blob/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md#annex-h)
 
 **Concrete challenge:** C0 requires missing mandatory approval evidence to remain `NOT_ESTABLISHED`. A controlled later change treats that absence as approval satisfied; candidate-derived tests may repeat the same error. Compare behavior against independently fixed C0 outcomes. An earlier approval for D2 does not silently cover D3. Testbed admission produces scoped observations, not a certificate that the trust framework is correct.
 
@@ -231,6 +231,6 @@ https://airc.nist.gov/airmf-resources/playbook/measure/
 - [ ] Dataset
 - [ ] Code
 - [ ] Protocol
-- [x] Other: [Complete dossier v1.0](FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md), supplied alongside this body. The relative link is for this two-file package; attach or link the dossier at an approved public location before using this body in a public issue.
+- [x] Other: [Complete dossier v1.0](https://github.com/dakleyer/use-cases/blob/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3/contributions/contextual-trust-recursive-escalation/FG_TIDA_Use_Case_Contextual_Trust_Recursive_Escalation_v1.0.md), supplied alongside this body. The materials are accessible at pinned commit [`6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3`](https://github.com/dakleyer/use-cases/commit/6ce0f55a458bd38ea86e5f54debdc1d3dfbd44a3) while [PR #19](https://github.com/FG-TIDA/use-cases/pull/19) is pending.
 
 **IP notes / attribution:** Iván Abril Palma credits Nelson Trasatti's discussion of 29 September 2026 for the motivating observation about agents contributing to trust specifications. The conversation with Larisa Ginosyan, Founder and CEO of MIHR (Machine Intelligence Human Ratio), on 28 September 2026 motivated the labeling inquiry. These personal-conversation attributions, their limits and the separate public references are retained in dossier PC01/PC02. MIHR participation is optional.
