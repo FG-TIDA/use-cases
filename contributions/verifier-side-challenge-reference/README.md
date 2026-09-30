@@ -8,7 +8,7 @@ This folder points to a **publicly resolvable, independently checkable evidence 
 
 - **Executable offline from the record alone**: each entry ships a detection recipe runnable with stdlib only, no network.
 - **Pinned manifest**: `manifest.sha256` records every file's SHA-256; integrity is verifiable without contacting the author.
-- **Publicly resolvable DOI**: `10.5281/zenodo.22821834` (`.zenodo.json`), with Sigstore Rekor and Software Heritage SWHID referenced.
+- **Pinned, citable snapshot**: GitHub release `v0.1.0` is the pinned, citable snapshot; integrity is fixed by `manifest.sha256` set digest `7449337e5f315e1f71d64a65d03a8673d85ced1cb17ba70af2f2da8a57132060` at pin `82018d3c`. (Zenodo archival is configured via `.zenodo.json` and will resolve on first tagged release; **no DOI is asserted here until it resolves**.)
 - **Negative-control workflow**: the `gates.yml` CI proves which checks are *actually executed* — the same "reported success while checking nothing" failure shape this catalog documents.
 - **Reproducible**: clone → run `tools/check-catalog.py --selftest` → red if any gate fails.
 
