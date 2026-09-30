@@ -14,4 +14,4 @@ From dakleyer's #13 correspondence (2026-09-29), the verifier-side challenge ask
 - **SF-005 = legitimate-pass case** (the case that should pass once required evidence is actually counted).
 - **SF-006 = provenance-omission probe** (whether undeclared contributions are surfaced).
 
-Each entry is runnable offline (stdlib only) and pinned via `manifest.sha256`; CI in `gates.yml` proves the checks actually execute. See `silent-failure-catalog` DOI 10.5281/zenodo.22821834.
+Each entry is runnable offline (stdlib only) and pinned via `manifest.sha256`; CI in `gates.yml` proves the checks actually execute. See `silent-failure-catalog` (GitHub release v0.1.0, with `manifest.sha256` for integrity).

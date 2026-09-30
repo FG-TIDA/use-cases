@@ -2,7 +2,7 @@
 
 > Executable reference implementation for the UC-4 / UC-6 verification question discussed in FG-TIDA/themes #13 and FG-TIDA/use-cases #22.
 
-This folder points to a **publicly resolvable, independently checkable evidence artefact** — [`silent-failure-catalog`](https://github.com/zhaoxinghua09-cell/silent-failure-catalog) (DOI [`10.5281/zenodo.22821834`](https://doi.org/10.5281/zenodo.22821834)) — which already contains **executable entries SF-005, SF-006 and SF-011** named in the #13 correspondence (dakleyer, 2026-09-29).
+This folder points to a **publicly resolvable, independently checkable evidence artefact** — [`silent-failure-catalog`](https://github.com/zhaoxinghua09-cell/silent-failure-catalog) (GitHub release v0.1.0, pinned `manifest.sha256` + `gates.yml` CI) — which already contains **executable entries SF-005, SF-006 and SF-011** named in the #13 correspondence (dakleyer, 2026-09-29).
 
 ## Why this is a reference implementation (not a description)
 
