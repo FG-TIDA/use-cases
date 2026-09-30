@@ -43,9 +43,10 @@ own, and never committed.
   or `load_curation.py` (rebuilding from `curation/mappings.yaml`). A
   raw re-sync never overwrites these, so reviewer work survives issue edits.
 
-This mirrors the handover doc's requirement that submitters aren't expected
-to classify their use case correctly at submission time — that's a separate,
-smaller reviewer group's job, done after the fact.
+This reflects a deliberate split: submitters aren't expected to classify
+their use case correctly at submission time — mapping it to themes, working
+groups, and taxonomy terms is a separate, smaller reviewer group's job, done
+after the fact (see `reviewer-workflow.md`).
 
 ## `curation/mappings.yaml` as the durable curated-data store
 
@@ -61,7 +62,7 @@ clean checkout with no server or persistent volume involved.
 
 ## Why SQLite now, not Postgres
 
-The original proposal calls for Postgres. For this first version, SQLite
+A Postgres-backed design was the original target. For this first version, SQLite
 gets the same relational design running with zero setup (`init_db.py`
 against a single file — no server to stand up before anyone can try it).
 The schema is written to port cleanly:
@@ -87,7 +88,7 @@ not be fixed upfront.
 
 ## Deliberately not doing yet
 
-Per the proposal's own "what to avoid initially" list:
+This first version deliberately avoids:
 
 - No forced final taxonomy — terms are created ad hoc by reviewers and
   start life as `candidate`.
