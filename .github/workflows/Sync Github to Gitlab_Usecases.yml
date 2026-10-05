@@ -44,7 +44,7 @@ jobs:
           fi
 
           if [ -z "$GITLAB_REPO_URL" ]; then
-            echo "ERROR: GITLAB_REPO_URL_THEMES is not configured."
+            echo "ERROR: GITLAB_REPO_URL_USECASES is not configured."
             exit 1
           fi
 
