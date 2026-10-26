@@ -20,6 +20,7 @@ work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
 | 13 | Mitigating Stochastic Semantic Risk via Deterministic Runtime Enforcement | Airline / travel | Independent | Runtime Enforcement (Control Plane) | [#13](https://github.com/FG-TIDA/use-cases/issues/13) |
 | 14 | Agent-team delivery of regulated medical-device compliance work — authority, verification and evidence semantics in production | Health / professional regulatory-compliance services | SynomosAI (LGD theory initiative); production reference: MedXpert | Continuous Trust and Attestation | [#14](https://github.com/FG-TIDA/use-cases/issues/14) |
 | 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
+| 42 | Post-execution evidence gap in metered agent-to-agent settlement: no externally verifiable record of what was committed | Financial services / cross-sector infrastructure | Rama | Continuous Trust and Attestation | [#42](https://github.com/FG-TIDA/use-cases/issues/42) |
 
 ## Contributing
 
