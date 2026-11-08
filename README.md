@@ -21,6 +21,9 @@ work. They feed into theme scoping and, in turn, into FG-TIDA's deliverables.
 | 14 | Agent-team delivery of regulated medical-device compliance work — authority, verification and evidence semantics in production | Health / professional regulatory-compliance services | SynomosAI (LGD theory initiative); production reference: MedXpert | Continuous Trust and Attestation | [#30](https://github.com/FG-TIDA/use-cases/issues/30) |
 | 17 | Verification under collision: AI-drafted client communications in regulated financial services | Financial services | CTGT | Runtime Enforcement (Control Plane) | [#17](https://github.com/FG-TIDA/use-cases/issues/17) |
 
+| 20 | Contextual trust under recursive human–agent escalation | International IT pre-standardization and collaborative software engineering | Individual expert contribution — Iván Abril Palma, The Integral Management Society / Tegrity.AI | Dynamic Identity | [#20](https://github.com/FG-TIDA/use-cases/issues/20) |
+| 21 | When the controls work but the system fails — six failure scenarios and three implementation walkthroughs | Cross-sector | The Integral Management Society / Tegrity.AI | Runtime Enforcement (Control Plane) | [#21](https://github.com/FG-TIDA/use-cases/issues/21) |
+
 ## Contributing
 
 - Create a [new issue](https://github.com/FG-TIDA/use-cases/issues/new/choose) and complete every required field.
